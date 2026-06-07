@@ -121,9 +121,9 @@ def build_dual_cycle_prompt(user_df, knowledge, rag_results=None):
     recent_avg = cases[-3:].mean() if len(cases) >= 3 else cases.mean()
     early_avg = cases[:half].mean() if half > 0 else 0
     late_avg = cases[half:].mean() if half > 0 else 0
-    if late_avg > early_avg * 1.3:
+    if late_avg > early_avg * 1.15:
         recent_trend = "Rising"
-    elif late_avg < early_avg * 0.7:
+    elif late_avg < early_avg * 0.85:
         recent_trend = "Falling"
     else:
         recent_trend = "Stable / fluctuating"
@@ -364,9 +364,9 @@ def parse_dual_json(text: str):
 
     first_7 = sum(d["cases"] for d in full_21[0:7])
     last_7 = sum(d["cases"] for d in full_21[14:21])
-    if last_7 > first_7 * 1.3:
+    if last_7 > first_7 * 1.15:
         trend = "Rising"
-    elif last_7 < first_7 * 0.7:
+    elif last_7 < first_7 * 0.85:
         trend = "Falling"
     else:
         trend = "Stable"
