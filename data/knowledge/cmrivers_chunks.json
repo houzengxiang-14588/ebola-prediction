@@ -1,0 +1,108 @@
+[
+  {
+    "id": "cmrivers_ts_guinea",
+    "text": "2014年西非埃博拉暴发期间，Guinea逐日病例数据：报告期2014-03-22至2015-01-05，累计84729例，单日峰值2015-01-05达2776例，累计死亡约1786例。数据来源：WHO每日情况报告(cmrivers/ebola)。",
+    "metadata": {
+      "type": "cmrivers_timeseries",
+      "country": "Guinea",
+      "first_date": "2014-03-22",
+      "last_date": "2015-01-05",
+      "peak_date": "2015-01-05",
+      "peak_cases": 2776,
+      "total_cases": 84729,
+      "total_deaths": 1786
+    }
+  },
+  {
+    "id": "cmrivers_ts_liberia",
+    "text": "2014年西非埃博拉暴发期间，Liberia逐日病例数据：报告期2014-03-27至2015-01-03，累计193833例，单日峰值2015-01-03达8166例，累计死亡约3496例。数据来源：WHO每日情况报告(cmrivers/ebola)。",
+    "metadata": {
+      "type": "cmrivers_timeseries",
+      "country": "Liberia",
+      "first_date": "2014-03-27",
+      "last_date": "2015-01-03",
+      "peak_date": "2015-01-03",
+      "peak_cases": 8166,
+      "total_cases": 193833,
+      "total_deaths": 3496
+    }
+  },
+  {
+    "id": "cmrivers_ts_sierra_leone",
+    "text": "2014年西非埃博拉暴发期间，Sierra Leone逐日病例数据：报告期2014-03-27至2015-01-05，累计211181例，单日峰值2015-01-05达10030例，累计死亡约2977例。数据来源：WHO每日情况报告(cmrivers/ebola)。",
+    "metadata": {
+      "type": "cmrivers_timeseries",
+      "country": "Sierra Leone",
+      "first_date": "2014-03-27",
+      "last_date": "2015-01-05",
+      "peak_date": "2015-01-05",
+      "peak_cases": 10030,
+      "total_cases": 211181,
+      "total_deaths": 2977
+    }
+  },
+  {
+    "id": "cmrivers_ts_nigeria",
+    "text": "2014年西非埃博拉暴发期间，Nigeria逐日病例数据：报告期2014-07-23至2014-12-07，累计636例，单日峰值2014-09-05达22例，累计死亡约8例。数据来源：WHO每日情况报告(cmrivers/ebola)。",
+    "metadata": {
+      "type": "cmrivers_timeseries",
+      "country": "Nigeria",
+      "first_date": "2014-07-23",
+      "last_date": "2014-12-07",
+      "peak_date": "2014-09-05",
+      "peak_cases": 22,
+      "total_cases": 636,
+      "total_deaths": 8
+    }
+  },
+  {
+    "id": "cmrivers_ts_senegal",
+    "text": "2014年西非埃博拉暴发期间，Senegal逐日病例数据：报告期2014-08-31至2014-12-07，累计27例，单日峰值2014-09-07达3例，累计死亡约0例。数据来源：WHO每日情况报告(cmrivers/ebola)。",
+    "metadata": {
+      "type": "cmrivers_timeseries",
+      "country": "Senegal",
+      "first_date": "2014-08-31",
+      "last_date": "2014-12-07",
+      "peak_date": "2014-09-07",
+      "peak_cases": 3,
+      "total_cases": 27,
+      "total_deaths": 0
+    }
+  },
+  {
+    "id": "cmrivers_ts_mali",
+    "text": "2014年西非埃博拉暴发期间，Mali逐日病例数据：报告期2014-10-22至2014-12-07，累计42例，单日峰值2014-11-23达7例，累计死亡约6例。数据来源：WHO每日情况报告(cmrivers/ebola)。",
+    "metadata": {
+      "type": "cmrivers_timeseries",
+      "country": "Mali",
+      "first_date": "2014-10-22",
+      "last_date": "2014-12-07",
+      "peak_date": "2014-11-23",
+      "peak_cases": 7,
+      "total_cases": 42,
+      "total_deaths": 6
+    }
+  },
+  {
+    "id": "cmrivers_line_list",
+    "text": "2014年西非埃博拉暴发行列表：共50例个案，覆盖3个国家。主要分布：Guinea21例、Nigeria20例、Liberia9例。",
+    "metadata": {
+      "type": "cmrivers_line_list",
+      "total_cases": 50,
+      "num_countries": 3
+    }
+  },
+  {
+    "id": "cmrivers_daily_guinea",
+    "text": "2014年埃博拉暴发期间，Guinea卫生部每日报告：共22份日报，首份2014-08-04，末份2014-10-01。累计确诊病例峰值2014-08-31达29例，报告期内最高累计确诊29例。",
+    "metadata": {
+      "type": "cmrivers_daily_report",
+      "country": "Guinea",
+      "num_reports": 22,
+      "first_date": "2014-08-04",
+      "last_date": "2014-10-01",
+      "peak_date": "2014-08-31",
+      "peak_confirmed": 29
+    }
+  }
+]

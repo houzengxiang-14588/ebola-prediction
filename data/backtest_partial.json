@@ -1,0 +1,1651 @@
+{
+  "results": [
+    {
+      "country": "Guinea",
+      "window_end": 8,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第8周（2014-10-26）的病例数为34例，而近期均值为118例/周。这意味着在2014-11-02这周，即第9周的数据尚未给出的情况下，我们可以仅依据已有的信息进行分析。第8周的病例数远低于近期均值，表明病例数量有明显的下降趋势。因此，可以推断在2014-11-02这周，Guinea的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 9,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，第9周（2014-11-02）的病例数为353例，而近期均值为185例/周。这意味着在2014-11-09这周（即第10周），Guinea的埃博拉病例数相比近期均值有显著上升。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 10,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Guinea在第8周（2014-10-26）有34例病例，在第9周（2014-11-02）增加到353例。这意味着在2014-11-16这周，即第9周内，病例数量显著上升。考虑到这一急剧增长与之前的较低水平形成对比，可以推断出趋势是上升的。然而，由于没有提供第10周的具体数据来进一步验证这一趋势，我们只能基于现有的信息进行分析。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 11,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": ""
+    },
+    {
+      "country": "Guinea",
+      "window_end": 12,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第8周（2014-10-26）有34例病例，在第9周（2014-11-02）增加到353例，之后在第10周（2014-11-09）降至0例。这表明在第9周病例数量显著增加，但在第10周病例数量急剧下降至0例。因此，在2014-11-30这周，即第11周（2014-11-16），Guinea的病例数相比近期均值（96例/周）是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 13,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "在给出的数据中，Guinea的埃博拉病例数从第6周到第13周呈现波动趋势，其中第10周病例数为0，之后开始回升。然而，没有提供2014年12月7日这一周的具体数据，因此无法直接比较该周与近期均值之间的关系。但是，根据历史知识，2014年西非埃博拉暴发期间Senegal的累计病例数在2014年12月7日之前为27例，且单日峰值出现在9月7日，累计死亡约为0例。这表明在12月7日之前的一段时间内，病例数可能已经有所减少。然而，由于缺乏具体数据，我们无法确定Guinea在2014年12月7日这周的确诊病例数量。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 14,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第14周（2014-12-07）有30例病例。考虑到近期均值为82例/周（前段为185例/周），这周的病例数明显低于近期均值。因此，我们可以推断在2014-12-14这周，Guinea的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 15,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Guinea在第16周（2014-12-21）的病例数为128例。在之前的几周，病例数呈现下降趋势，从第10周的0例增加到第16周的128例。然而，这个数值仍然远低于近期均值82例/周。因此，与近期均值相比，这一周的病例数是上升的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 16,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给定的数据中，Guinea的埃博拉病例数从第14周的30例增加到第16周的124例，显示了一个明显的上升趋势。然而，这个趋势与之前的下降趋势不一致。因此，我们需要更详细地分析这段时间内的数据变化。从第15周开始，病例数从128例增加到124例，这表明在最近两周内，病例数有所减少的趋势可能已经逆转。但是，由于数据量有限且时间跨度较短，我们不能完全确定这种趋势是否持续存在。因此，对于2014-12-28这周的预测，我们需要更多的信息来做出准确判断。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 17,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "在给出的数据中，Guinea的埃博拉病例数从第17周的214例下降到了第18周的数据，但由于没有提供第18周的具体数据，我们无法直接比较。然而，根据题目描述，近期走势为上升，且近期均值为155例/周（前段为96例/周）。因此，可以推断在2015-01-04这周，Guinea的埃博拉病例数相比近期均值应该是上升的。但由于数据缺失，对这个预测的信心较低。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 18,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第18周（2015-01-04）的病例数为100例，而近期均值为146例/周。这意味着在2015-01-11这周（即第19周开始）的病例数相比近期均值是下降的，因为实际病例数低于均值。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 19,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第19周（2015-01-11）的病例数为63例，而近期均值为126例/周。这意味着在2015-01-18这周之前的一周（第18周），病例数低于近期均值。因此，我们可以推断在2015-01-18这周，Guinea的埃博拉病例数相比近期均值是下降的。然而，由于没有提供2015-01-18这周的具体病例数，我们只能基于已有的数据进行推测。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 20,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第13周至第20周的埃博拉病例数呈现波动趋势，但整体呈下降态势。近期均值为65例/周（前段为82例/周）。因此，为了评估2015-01-25这周的情况，我们需要将这周的数据与近期均值进行比较。然而，由于没有提供2015-01-25这周的具体病例数，我们无法直接计算。但是，基于之前的趋势，我们可以假设这周的病例数可能接近或低于近期均值。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 21,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "在给出的数据中，Guinea的埃博拉病例数从第21周的48例下降到了未知周数的未知病例数。由于没有提供2015-02-01这周的具体病例数，我们无法直接比较。但是，根据题目信息，近8周的趋势是下降，且近期均值为48例/周。因此，可以假设在2015-02-01这周的病例数相比于近期均值可能是下降的。然而，由于缺乏具体数据，对这一假设的信心等级只能定为中等。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 22,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在分析Guinea在2015年的埃博拉病例数据时，我们注意到从第15周到第22周，病例数量呈现下降趋势。特别是从第18周开始，病例数显著减少，从100例降至第22周的48例。这意味着病例数的下降速度有所减缓，但总体趋势仍为下降。因此，在2015-02-08这周，即第22周，Guinea的埃博拉病例数相比近期均值（43例/周）保持平稳。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 23,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第23周（2015-02-08）的病例数为67例，而近期均值为54例/周。这意味着在2015-02-15这周（即第24周开始的一周），Guinea的病例数相比近期均值有所上升。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 24,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第24周（2015-02-15）的病例数为93例，而近期均值为69例/周。这意味着在第24周的病例数相较于近期均值有所上升。考虑到趋势分析，尽管整体趋势呈现下降，但在特定周内观察到的上升可能与多种因素有关，包括但不限于监测方法的改进、疫情的局部反弹等。因此，结合整体趋势和单周数据，可以认为这一变化是相对于近期均值的上升。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 25,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第25周（2015-02-22）的病例数为39例，而近期均值为66例/周。这意味着在2015-03-01这周，即第26周的数据尚未给出的情况下，与近期均值相比，病例数呈现下降趋势。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 26,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "从提供的数据来看，Guinea在第26周（2015-03-01）的病例数为70例，而近期均值为67例。这意味着在2015-03-08这周（即第26周之后的一周），Guinea的埃博拉病例数相比近期均值保持了上升的趋势。然而，由于没有提供2015-03-08这周的具体病例数，我们只能基于已有的数据进行推断。因此，分析的置信度可能较低。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 27,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Guinea在第26周（2015-03-01）有70例病例，在第27周（2015-03-08）有58例病例。这意味着在接下来的一周内，病例数量从70例下降到了58例，与近期均值56例/周相比，变化不大但总体呈下降趋势。因此，可以认为在2015-03-15这周，Guinea的埃博拉病例数相比近期均值是平稳的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 28,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "在给定的数据范围内，Guinea的埃博拉病例数经历了波动的趋势。从第21周到第28周，病例数从48例增加到83例，然后在第29周有所下降。近期均值为70例/周，而第28周的病例数为83例，这意味着在2015-03-22这周，病例数相比近期均值是上升的。考虑到数据的波动性和有限的样本量，这种趋势的持续性存在一定的不确定性。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 29,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第22周至第29周的埃博拉病例数呈现波动趋势，其中第25周病例数最低为39例，而第28周和第29周病例数分别为83例和73例，接近近期均值71例/周。因此，可以观察到病例数在一段时间内有所回升。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 30,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Guinea在第23周至第30周的埃博拉病例数呈现波动趋势，但整体上似乎有下降的趋势。在第25周达到最低点39例，之后逐渐增加到第28周的83例，然后在第30周降至62例。近期均值为73例/周。因此，为了确定2015-04-05这周（假设为第31周）的病例数与近期均值的关系，我们需要计算第31周的病例数。然而，数据中没有提供第31周的具体病例数。不过，根据已有的数据趋势，我们可以推测在接下来的一周（即第31周），病例数可能会继续下降或保持平稳，因为整体趋势显示下降。但是，由于缺乏确切的第31周数据，我们只能进行一个基于现有信息的合理推测。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 31,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Guinea在第24周至第31周的埃博拉病例数呈现波动趋势，但整体呈下降趋势。特别是从第28周到第31周，病例数从83例减少到24例，下降了约70%。近期均值为53例/周，而第31周的病例数为24例，明显低于近期均值。因此，可以推断在2015-04-12这周，Guinea的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 32,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给出的数据中，Guinea的埃博拉病例数从第31周的24例下降到第32周的24例，这意味着在一周的时间内，病例数保持不变。考虑到近期走势为下降，且最近的均值为37例/周，因此可以推断在2015-04-19这周的病例数相比近期均值是平稳的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 33,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "在给出的数据中，Guinea的埃博拉病例数从第31周的24例增加到第33周的54例，显示了一个明显的上升趋势。考虑到近期走势为下降，这一变化与近期趋势相反。因此，可以推断在2015-04-26这周，Guinea的埃博拉病例数相比近期均值（34例/周）是上升的。然而，由于数据仅提供了连续8周的病例数，没有提供该周的确切数据，我们只能基于当前趋势进行推测。因此，置信度应视为中等。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 34,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第31周至第34周的病例数呈现下降趋势，从24例降至7例，近期均值为28例/周。因此，在2015-05-03这周，即第35周之前，病例数相较于近期均值是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 35,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "从提供的数据来看，Guinea在第35周（2015-05-03）有9例病例，在第36周（2015-05-10）的数据未提供，但可以假设为未知数X。近期均值为23例/周。由于第35周的病例数低于近期均值，我们可以推断在第36周的病例数相比近期均值可能是上升、下降或平稳。但由于没有确切的第36周数据，我们只能基于已有的信息进行推测。如果第36周的病例数少于9，则相比近期均值下降；如果多于9，则相比近期均值上升；如果等于9，则相比近期均值平稳。然而，由于缺少第36周的确切数据，我们无法做出确定的判断。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 36,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第36周（2015-05-10）报告了7例病例，在第37周（2015-05-17）的数据未提供，但根据趋势分析，病例数呈现下降。因此，可以推断第37周的病例数相较于第36周有所减少。考虑到整体趋势为下降，且缺失的数据点不足以确定确切变化，但基于已有的信息，可以合理推测第37周的病例数相比近期均值（8例/周）呈下降趋势。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 37,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Guinea在第30周至第37周的埃博拉病例数呈现出波动下降的趋势。近期均值为14例/周（前段为37例/周）。因此，我们可以通过比较第37周的病例数与近期均值来分析趋势。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 38,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第31周至第38周的病例数呈现波动趋势，但整体上呈现出下降的趋势。在第34周至第38周，病例数分别为7、9、7和30例，其中第38周的病例数显著高于前几周，达到了30例。这表明在这一周内，病例数相较于近期均值有所上升。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 39,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Guinea在第32周至第39周的病例数呈现波动下降的趋势，其中第34周至第36周的病例数较低，之后在第37周和第38周有所回升，但第39周再次降至0例。近期均值为19例/周（前段为28例/周）。因此，需要分析2015年6月7日（即第39周）的病例数与近期均值的关系。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 40,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第33周至第40周的病例数呈现波动趋势，其中第39周病例数为0，这是近期的一个显著下降点。在2015-06-07的第40周，病例数为20例。因此，我们可以将2015-06-14的第41周视为与第40周相近的时间点进行比较。在第40周病例数为20例的情况下，如果我们将近期均值定义为前两周的平均值，即(7+9)/2=8例/周，则2015-06-14这周的病例数（假设为未知数X）相比近期均值（8例/周）有上升的趋势。然而，由于没有提供2015-06-14这周的具体病例数，我们只能基于已知的数据进行推断。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 41,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在提供的数据中，Guinea的埃博拉病例数从第37周开始呈上升趋势，到第38周达到近期均值11例/周以上的水平。在接下来的几周内，病例数继续上升，直到第41周达到13例。因此，在2015-06-21这周，即第41周，病例数相比近期均值11例/周是上升的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 42,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Guinea在第35周至第42周的病例数呈现波动趋势，但整体呈下降趋势。特别是从第37周到第39周，病例数从27例减少到0例，这是一个明显的下降。在第42周，病例数再次增加到1例，这表明在连续下降后出现了一次小幅度的上升。然而，这个上升与之前的下降相比，总体趋势仍然是下降的。因此，如果将第42周作为参考点，即2015-06-21，那么在2015-06-28这周，即第43周，病例数为0例，相比近期均值11例/周，是下降的趋势。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 43,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第36周至第43周的病例数经历了显著波动。在第39周出现了零病例的异常情况，之后在第40周和第41周病例数有所回升，但在第42周再次降至1例，随后在第43周病例数急剧上升至42例。这表明在这一时期内，病例数呈现波动状态，但整体趋势在第43周有明显上升。考虑到第39周的零病例可能是一个异常值，因此我们使用第36周至第42周的数据来计算近期均值。计算得到的近期均值为19例/周（前段为21例/周），而第43周的病例数为42例，这意味着与近期均值相比，第43周的病例数有显著上升。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 44,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第43周（2015-06-28）有42例病例，在第44周（2015-07-05）有30例病例。这意味着在2015-07-12这周，即第44周的后半周，病例数相比近期均值（24例/周）有所上升。考虑到这一变化趋势，我们可以推断在2015-07-12这周的病例数相较于近期均值是上升的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 45,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第43周（2015-06-28）出现了较高的病例数（42例），之后在第44周（2015-07-05）有所下降至30例，但在第45周（2015-07-12）再次上升至1例。这表明在这一时期内，Guinea的埃博拉病例数经历了波动，但整体趋势呈现上升。因此，在2015-07-19这周，即第45周，病例数相比近期均值（24例/周）是上升的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 46,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Guinea在第46周（2015-07-19）有19例病例，这比近期均值17例/周稍高，但差异不大。考虑到数据的波动性以及每周报告的时间点，这种变化可能并不稳定且可能是偶然的。然而，由于第46周的病例数略高于近期均值，可以初步判断趋势有所上升。但是，由于数据量有限且时间跨度较短，这种趋势的持续性和稳定性需要更多的数据支持。因此，对这一周的病例数与近期均值之间的关系进行判断时，应保持一定的谨慎。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 47,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第42周至第47周的病例数波动较大，但整体呈下降趋势。特别是从第43周开始，病例数显著增加，随后在第44周有所减少，但在第45周再次出现一个较低的病例数。然而，在第46周和第47周，病例数又有所回升。因此，如果将2015-08-02视为第47周的一部分，那么与近期均值（13例/周）相比，该周的病例数（18例）是上升的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 48,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第41周至第48周的病例数呈现波动趋势，其中第42周病例数最低为1例，而第43周病例数最高为42例。近期均值为14例/周，前段均值为19例/周。因此，我们可以通过计算第48周的病例数与近期均值进行比较。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 49,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Guinea在第49周（2015-08-09）的病例数为3例，这是在近期均值（8例/周）以下。这意味着病例数正在持续下降。因此，我们可以推断在2015-08-16这周，Guinea的埃博拉病例数相比近期均值是下降。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 50,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第43周至第50周的埃博拉病例数呈下降趋势，近期均值为2例/周。因此，在2015-08-23这周之前的数据中，病例数持续下降。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 51,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第44周至第51周的病例数呈现出明显的下降趋势，从30例降至3例，近期均值为2例/周。因此，可以推断在2015-08-30这周（即第51周）的病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 52,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第50周至第52周的埃博拉病例数分别为0、3、2例，呈现出下降的趋势。近期均值为2例/周。因此，在2015-09-06这周（即第52周），病例数为2例，与近期均值持平。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 53,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Guinea在第50周至第53周的病例数分别为0、3、2、0例。这表明在这一时期内，病例数呈现波动状态，但整体趋势为下降。与近期均值2例/周相比，第53周的病例数为0例，低于近期均值。因此，在2015-09-13这周，即第53周，Guinea的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 54,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "平稳",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第54周（2015-09-13）有1例病例，这比近期均值1例保持平稳。在第55周即2015-09-20这周的数据未给出，但考虑到趋势是下降，可以合理推测这周的病例数可能与近期均值接近或略低。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 55,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Guinea在第55周（2015-09-20）有1例新增病例。考虑到近期均值为1例/周，这意味着在接下来的一周（即第56周，2015-09-27）的病例数与近期均值相同。因此，不能简单地判断是上升、下降还是平稳，因为没有足够的信息来确定趋势变化。然而，由于病例数保持在近期均值水平，可以认为当前状态与近期趋势保持一致，即平稳。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 56,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第56周（2015-09-27）有7例病例，这比近期均值3例/周要高。因此，可以推断在2015-10-04这周，Guinea的埃博拉病例数相比近期均值是上升的。考虑到数据的连续性和趋势，这种上升趋势可能具有一定的持续性。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 57,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Guinea在第56周有7例病例，在第57周增加到8例。这意味着病例数在短期内有所上升。考虑到这是基于最近8周的数据进行的趋势分析，且在第57周的病例数高于近期均值（5例/周），可以推断出在2015-10-11这周，Guinea的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 58,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第57周（2015-10-04）有8例病例，在第58周（2015-10-11）降至0例。这意味着在一周内病例数大幅下降，与近期均值（5例/周）相比，趋势为下降。然而，由于数据仅提供了两周的数据点，且没有提供更长时期的背景信息，因此对这种短期波动的预测和解释有限。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 59,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在提供的数据中，Guinea在第58周（2015-10-11）出现了0例病例，在第59周（2015-10-18）继续保持0例病例。这意味着在接下来的一周内，即2015年10月25日所在的那周，Guinea的埃博拉病例数保持为0例。考虑到近期均值为3例/周，且在之前的几周内病例数有波动，但整体趋势呈上升状态，因此在2015年10月25日这周，Guinea的埃博拉病例数相比近期均值是下降的。然而，由于数据仅提供了几周的数据点，不足以做出高度确定的结论，因此对这种趋势的判断应视为中等信心水平。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 60,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "在提供的数据中，Guinea从第56周开始出现了病例，之后在第57周病例数量增加到8例，但在第58周和第59周病例数量降至0例。这表明在最近几周内，病例数量经历了波动，但总体趋势似乎在下降。然而，我们没有足够的信息来确定在2015-11-01这周的病例数与近期均值相比的具体变化方向。因此，无法准确判断是上升、下降还是平稳。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 61,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在2015-11-01这周，Guinea的埃博拉病例数为5例。从第58周到第61周，病例数经历了连续下降的趋势，分别为0例、0例、0例和5例。这意味着在过去的几周内，病例数量显著减少。因此，在2015-11-08这周，即第61周，病例数相比近期均值（2例/周）有所上升。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 62,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Guinea在第62周（2015-11-08）有2例病例，这比近期均值2例保持平稳。在第61周（2015-11-01）有5例病例，这比近期均值高出3例。因此，在2015-11-15这周之前的一周内，病例数有所增加。然而，由于没有直接提供2015-11-15这周的具体病例数，我们只能基于已有的数据进行推断。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 63,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "在给定的数据中，Guinea的埃博拉病例数经历了连续几周的下降趋势。从第58周到第63周，病例数分别为0、0、5、2、0。这表明在这一时期内，病例数量有明显的减少。因此，在2015-11-22这周（即第63周），病例数为0，相比近期均值2例/周，是下降的趋势。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 64,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "在给出的数据中，Guinea的埃博拉病例数在近8周内呈现下降趋势，从第57周的8例降至第64周的0例。近期均值为1例/周（前段为3例/周）。因此，我们可以通过这些信息来分析2015-11-29这周的情况。由于数据只提供到第64周（即2015-11-22），无法直接获取2015-11-29这周的确诊病例数。但是，根据已有的下降趋势和近期均值，我们可以推断在没有新增病例的情况下，2015-11-29这周的病例数很可能继续为0例。因此，与近期均值1例/周相比，这周的病例数是下降的。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 65,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "平稳",
+      "correct": true,
+      "confidence": "低",
+      "analysis": "在提供的数据中，Guinea在第65周（2015-11-29）之前连续几周报告了零病例，而在第66周（2015-12-06）的数据尚未提供。因此，无法直接比较第66周与近期均值之间的变化。然而，考虑到在第65周之前几周的零病例记录，可以推测在第66周之前，病例数量可能已经降至极低水平。由于没有第66周的具体数据，我们无法确定其相对于近期均值的变化。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 66,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据范围内，Guinea的埃博拉病例数呈现出明显的下降趋势。从第66周开始，病例数从1例降至第67周为0例。这意味着在2015-12-13这周，即第67周，Guinea的病例数相比近期均值（0例/周）保持平稳，因为该周的病例数也为0例。因此，可以认为在这一时间点上，病例数没有上升，也没有下降，而是与近期均值持平。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 67,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，Guinea的埃博拉病例数从第60周开始连续下降，直至第67周保持为0例。这意味着在病例数量上，Guinea的情况在持续改善。因此，如果我们要预测2015-12-20这周的病例数，基于已有的下降趋势，我们可以假设病例数将继续保持较低水平，甚至可能为零。然而，由于数据仅提供到第67周的信息，并没有包含第68周及之后的数据，因此我们无法确定确切的数字。但是，根据当前的趋势，我们可以合理推测，这周的病例数相比近期均值（0例/周）很可能保持平稳或继续下降。"
+    },
+    {
+      "country": "Guinea",
+      "window_end": 68,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Guinea在第61周至第68周的埃博拉病例数呈现下降趋势，近期均值为1例/周。因此，在没有更多后续数据的情况下，可以初步分析在2015-12-27这周，即第69周，Guinea的埃博拉病例数相比近期均值可能保持平稳或略有下降。但由于数据仅提供到第68周，无法确定第69周的具体数字，因此分析基于现有信息进行。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 8,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第8周（2014-10-26）的病例数为403例，而近期均值为277例/周。这意味着在2014-11-02这周（即第9周），Liberia的病例数相比近期均值有所上升。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 9,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给出的数据中，Liberia在第9周（2014-11-02）的病例数为1870例，而近期均值为820例/周。这意味着在2014-11-09这周，即第10周的初期，Liberia的病例数相比近期均值有显著的上升。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 10,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Liberia在第9周（2014-11-02）的病例数为1870例，在第10周（2014-11-09）的病例数降至84例。这意味着在接下来的一周内，即2014-11-16这周，Liberia的病例数相比近期均值（786例/周）有显著下降。因此，我们可以推断出在2014-11-16这周，Liberia的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 11,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Liberia在第9周（2014-11-02）的病例数为1870例，在第10周（2014-11-09）降至84例，在第11周（2014-11-16）又增加至259例。这意味着在2014-11-23这周，也就是第11周之后的一周，Liberia的病例数相比近期均值有所上升。近期均值为738例/周（前段：455例/周），而第11周的病例数为259例，因此可以推断出这周的病例数相比近期均值是上升的。考虑到数据的波动性和有限的样本量，这种判断的置信度可能处于中等水平。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 12,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第9周至第12周的埃博拉病例数经历了显著波动。在第9周达到高峰，随后迅速下降，在第10周降至极低水平，之后又在第11周和第12周有所回升。然而，这种回升幅度相对较小，且整体趋势仍然呈现下降态势。因此，可以认为Liberia在2014-11-30这周的病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 13,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给出的数据中，Liberia的埃博拉病例数从第6周的242例下降到第13周的86例，呈现明显的下降趋势。近期均值为183例/周，而第13周的病例数仅为86例，远低于近期均值。因此，可以推断Liberia的埃博拉病例数在这段时间内是显著下降的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 14,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "在给出的数据中，Liberia的埃博拉病例数从第10周开始呈现波动下降的趋势。在第14周，病例数为467例。考虑到近期均值为252例/周，这意味着在2014-12-14这周（即第14周），Liberia的病例数相比近期均值是上升的。然而，由于没有提供确切的日期数据，我们只能基于周平均值进行推断。因此，分析的置信度可能较低。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 15,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第16周（2014-12-21）的病例数为467例，而近期均值为212例/周。这意味着在这一周内，Liberia的病例数相较于近期均值有显著上升。考虑到数据的连续性和趋势，这种上升可能是由于特定时间内的感染增加导致的，尤其是在医疗资源紧张或防控措施有所松懈的情况下。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 16,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第16周（2014-12-21）的病例数为78例，而近期均值为210例/周。这意味着在2014-12-28这周的数据未提供，但根据已有的信息，我们可以推断在接下来的一周内（即第17周），病例数相较于近期均值是下降的趋势。因此，可以将此趋势视为与近期均值相比的下降。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 17,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Liberia在第10周至第17周的病例数呈现波动下降的趋势，其中第13周至第17周的均值为76例/周。因此，我们可以推断在2015-01-04这周之前，Liberia的病例数整体趋势是下降的。然而，没有直接的数据表明2015-01-04这周的确切病例数，因此我们只能基于之前的趋势进行推测。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 18,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给出的数据中，Liberia的埃博拉病例数从第11周的259例下降到第18周的156例，呈现下降趋势。近期均值为100例/周，而第18周的病例数为156例，高于近期均值。因此，可以推断在2015-01-11这周，Liberia的埃博拉病例数相比近期均值是上升的。但是，由于数据仅提供每周的病例数，无法确定具体日期的波动情况，因此对这一结论的置信度为中等。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 19,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第19周（2015-01-11）的病例数为245例，而近期均值为155例/周。这意味着在接下来的一周内（即2015-01-18），Liberia的病例数相比近期均值有所上升。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 20,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Liberia在第20周（2015-01-18）的病例数为99例，而在第21周（2015-01-25）的数据未提供。但是，我们可以观察到在之前的几周内病例数量呈现波动状态，从第14周的467例下降至第19周的245例，再到第20周的99例。这表明在过去的几周内，病例数量总体呈下降趋势。因此，在没有具体数据的情况下，可以推测第21周的病例数可能与第20周相近或更低。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 21,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "从提供的数据来看，Liberia在第21周（2015-01-25）的病例数为162例，而近期均值为169例。这意味着在2015-02-01这周，即第22周的数据尚未提供的情况下，我们可以仅基于已有的信息进行分析。第21周的病例数低于近期均值，因此可以推断在接下来的一周内（假设为2015-02-01），Liberia的埃博拉病例数可能会上升，因为其接近近期均值但未达到。然而，这种预测基于有限的数据点，因此置信度较低。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 22,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "在分析Liberia在2015年的埃博拉疫情数据时，我们注意到从第15周到第22周的数据波动。在这段时间内，病例数量经历了显著的变化。具体来说，从第18周开始，病例数量迅速增加，达到156例，然后在第19周进一步上升至245例。然而，在接下来的几周里，病例数量有所减少，从第20周的99例增加到第21周的162例，再到第22周的119例。这意味着在2015-02-01（第22周）时，病例数量相较于近期均值（127例/周）有所下降。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 23,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "从提供的数据来看，Liberia在第24周（2015-02-15）的病例数为未知，但根据已知的数据，可以观察到病例数在第16周至第23周之间波动。在第19周达到近期最高值245例，之后逐渐下降至第23周的102例。因此，可以推断在第24周的病例数与近期均值相比可能有所变化，但由于缺少具体数值，无法确定是上升、下降还是平稳。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 24,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第24周（2015-02-15）的病例数为186例，而近期均值为136例/周。这意味着在第24周的病例数相比近期均值有显著上升。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 25,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第25周（2015-02-22）的病例数为165例，而近期均值为151例/周。这意味着在接下来的一周（2015-03-01），即第26周，Liberia的病例数相比近期均值有所上升。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 26,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第26周（2015-03-01）的病例数为169例，而近期均值为173例。这意味着在2015-03-08这周（即第27周开始的一周），Liberia的病例数相比近期均值是下降的。这种趋势与近期波动的走势相一致，表明疫情可能正在缓解。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 27,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第27周（2015-03-08）出现了0例病例，这是一个显著的下降。在接下来的一周内，即第28周（2015-03-15），我们没有提供具体的数据点。然而，考虑到第27周的病例数已经降至0，我们可以合理推测，在第28周Liberia的埃博拉病例数很可能继续维持在较低水平，甚至为0。因此，与近期均值（111例/周）相比，Liberia在这周的病例数应该是下降的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 28,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据可以看出，Liberia在第27周（2015-03-08）出现了0例病例，这是一个显著的下降。然而，在第28周（2015-03-15）病例数再次上升至217例，这表明在经历了短暂的下降之后，病例数又回到了较高的水平。考虑到这个波动的趋势以及与近期均值（129例/周）的比较，可以认为在第28周的病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 29,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Liberia在第27周出现了0例病例的异常低点，随后在第28周病例数迅速上升至217例，之后在第29周降至73例。这种波动趋势与近期均值97例/周相比，显示了较大的变化。特别是从第27周到第28周的急剧增加，表明病例数有显著上升的趋势。然而，在第29周又出现下降，这可能是因为干预措施的有效性或是疫情自然发展的结果。总体而言，Liberia的病例数在这段时间内经历了明显的波动，尤其是在第27周至第28周期间。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 30,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第27周出现了0例病例的异常低点，随后在第28周病例数迅速上升至217例，这表明在接下来的一周内病例数有显著增加的趋势。与近期均值112例/周相比，这一变化表明病例数在短期内有显著上升。考虑到这种波动性和突然增加的情况，可以推测在2015-04-05这周，Liberia的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 31,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给出的数据中，从第27周到第31周，Liberia的埃博拉病例数经历了显著的变化。第27周有0例病例，随后在第28周病例数迅速上升至217例，之后又逐渐下降至第31周的130例。这意味着病例数在短期内经历了大幅波动。然而，与近期均值（83例/周）相比，第31周的病例数为130例，高于近期均值。因此，我们可以推断在2015-04-12这周，Liberia的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 32,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第25周至第32周的病例数波动较大，但整体趋势呈现先下降后上升的态势。在第27周达到0例的低点，之后开始逐渐增加，到第32周恢复至130例。与近期均值102例/周相比，第32周的病例数为130例，高于近期均值。因此，可以推断Liberia在2015-04-19这周的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 33,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Liberia在第26周至第33周的病例数呈现出波动趋势，但整体上似乎有下降的趋势。在第27周出现了0例病例的异常点，之后在第29周至第33周的病例数分别为73、47、130和180例，整体趋势为先下降后上升。考虑到近期均值为147例/周（前段为129例/周），在第34周的数据未提供的情况下，我们只能基于现有信息进行推测。如果假设第34周的数据与近期趋势保持一致，则第34周的病例数应该接近或略低于近期均值。然而，由于缺少第34周的具体数据，我们无法准确判断其与近期均值的关系。但是，根据第33周180例的病例数，它高于近期均值，且趋势显示波动，因此可以推测在第34周（即2015-04-26这周）的病例数相比近期均值可能有所上升。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 34,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第27周至第34周的病例数呈现出波动变化的趋势，其中第28周病例数最多，为217例，之后逐渐减少，第34周病例数为170例。近期均值为160例/周，而第34周的病例数为170例，与近期均值相当。因此，我们可以认为在2015-05-03这周，Liberia的埃博拉病例数相比近期均值是平稳的。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 35,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第35周（2015-05-03）有110例病例，这比前一周（第34周）的170例有所下降，也低于近期均值153例/周。因此，可以初步判断Liberia在2015-05-10这周的病例数相比近期均值是下降。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 36,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Liberia在第36周（2015-05-10）的病例数为242例，这比近期均值174例/周有所上升。考虑到趋势和均值的变化，可以推断出在2015-05-17这周的病例数相较于近期均值有上升的趋势。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 37,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": ""
+    },
+    {
+      "country": "Liberia",
+      "window_end": 38,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第31周至第38周的埃博拉病例数经历了显著波动。在第36周达到高峰，为242例，随后迅速下降至第37周的40例，再进一步降至第38周的62例。这表明病例数在短期内经历了快速减少的趋势。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 39,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第32周至第39周的埃博拉病例数经历了显著波动，从130例增加到0例。在这一周期内，病例数呈现明显的下降趋势，特别是从第36周（242例）到第37周（40例），再到第38周（62例），最后在第39周达到0例。这意味着Liberia的埃博拉疫情在这一时间段内得到了有效控制。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 40,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第33周至第40周的病例数呈现波动下降的趋势，其中第36周病例数显著增加，之后迅速下降至第39周和第40周为0例。近期均值为21例/周（前段为153例/周）。因此，需要分析2015-06-14这周（即第40周）的病例数与近期均值的关系。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 41,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第34周至第41周的病例数呈现明显的下降趋势，从170例降至0例。这意味着疫情在该地区得到了有效的控制。在第40周和第41周，病例数为0例，而在第39周为0例，表明在2015-06-21这周之前，Liberia已经连续几周没有新增病例。因此，在2015-06-21这周，Liberia的埃博拉病例数相比近期均值（0例/周）保持平稳。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 42,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Liberia在第35周至第42周的病例数呈下降趋势，且在第39周至第42周为零病例。这意味着疫情在该时间段内得到了有效控制。与近期均值（0例/周）相比，2015-06-28这周的数据未提供，但基于之前的趋势，可以推断在接下来的一周（假设为第43周）之前，病例数应保持在零或接近零的水平。因此，无法直接比较2015-06-28这周的具体病例数，但可以推测其与近期均值相比是平稳或下降的趋势。然而，由于缺乏确切的周度数据，对这一周的具体分析只能基于整体趋势进行。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 43,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第36周至第43周的病例数呈现连续下降趋势，且在第39周至第43周均为0例。这意味着在2015-07-05这周（即第43周），Liberia的埃博拉病例数为0，相比近期均值也为0例/周，因此可以认为是平稳状态。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 44,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在提供的数据中，Liberia从第37周开始连续8周没有报告任何埃博拉病例。这意味着从2015年5月17日到7月5日，该国的埃博拉疫情已经得到了有效控制，病例数为零。因此，在讨论2015年7月12日这一周的情况时，我们无法直接从数据中获取信息，因为数据仅提供到第44周（即7月5日）。然而，基于之前的趋势，我们可以合理推测，如果这一趋势持续到7月12日，那么病例数应该是0。所以，将这一周与近期均值（0例/周）进行比较，可以认为是平稳状态。"
+    },
+    {
+      "country": "Liberia",
+      "window_end": 45,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Liberia在第38周至第45周连续8周的埃博拉病例数均为0例。这意味着在这一时期内，Liberia的埃博拉疫情得到了有效控制，没有新增病例。因此，与近期均值（0例/周）相比，可以认为在2015-07-19这周的病例数是平稳的，因为在这段时间内没有新增病例。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 8,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "在给定的数据中，Sierra Leone的埃博拉病例数从第8周的486例下降到了未知的第9周数据。由于没有提供第9周的确切数据，我们只能基于已有的信息进行推测。根据提供的数据趋势，病例数呈现出波动状态，但整体趋势为上升。因此，在2014-11-02这周，即第9周，Sierra Leone的埃博拉病例数相比近期均值（486例/周）可能处于平稳状态，因为这周的数据没有明显上升或下降的迹象。然而，由于缺乏确切的第9周数据，这个结论的置信度较低。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 9,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，我们可以看到从第2周到第9周，Sierra Leone的埃博拉病例数呈现出波动上升的趋势。特别是从第5周开始，病例数显著增加，到第9周达到1442例，远高于近期均值796例/周。因此，可以推断在2014-11-09这周，Sierra Leone的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 10,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，Sierra Leone的埃博拉病例数从第9周的1442例下降到第10周的0例。这意味着在2014-11-16这周，即第10周，病例数相比近期均值（643例/周）大幅下降。因此，可以推断出在这周内，病例数的下降趋势显著，与近期均值相比，下降趋势非常明确。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 11,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Sierra Leone在第9周（2014-11-02）出现了显著的病例增长，达到了1442例。在接下来的一周内，即第10周（2014-11-09），病例数降至0例。这表明在这一时间段内，病例数量经历了大幅度的波动。然而，从第10周到第11周（2014-11-16），病例数又回升至724例。因此，如果将第10周视为近期均值，则第11周的病例数相比这一均值有所上升。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 12,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "平稳",
+      "correct": true,
+      "confidence": "低",
+      "analysis": ""
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 13,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "从给定的数据来看，Sierra Leone的埃博拉病例数在近几周呈现出波动的趋势。在第10周时病例数降至0例，随后在第11周和第12周有所回升，但在第13周又再次下降。近期均值为579例/周（前段为486例/周）。因此，我们需要比较2014年12月7日这一周的病例数与近期均值之间的关系。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 14,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "平稳",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给定的数据中，我们观察到Sierra Leone的埃博拉病例数从第10周开始下降至0例，之后在第11周有所回升至724例，随后在第12周再次下降至604例，在第13周进一步降至409例，在第14周回升至713例。这种波动性表明疫情在该地区存在不确定性。然而，整体趋势显示病例数在逐渐减少。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 15,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给定的数据中，我们观察到Sierra Leone的埃博拉病例数在第14周和第15周之间有所波动，分别为713例和585例。这意味着在过去的两周内，病例数呈现出下降的趋势。然而，为了确定在2014-12-21这周（即第16周）的病例数相对于近期均值的变化，我们需要计算这个均值。已知的近期均值为569例/周。由于没有直接提供第16周的病例数，我们无法进行精确的比较。但是，基于先前的下降趋势，我们可以合理推测，在没有新数据的情况下，第16周的病例数可能仍然低于近期均值。因此，这是一个基于现有信息的预测，而不是确切的事实。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 16,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Sierra Leone在第16周（2014-12-21）的病例数为459例。由于没有提供第17周（2014-12-28）的确切数据，我们无法直接比较。但是，根据近8周的趋势，病例数呈现出波动状态，且在第10周达到0例的低点。这意味着在接下来的几周内，病例数有所回升。因此，可以推测在第17周，即2014-12-28这周，病例数可能相比近期均值有所上升。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 17,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "在提供的数据中，我们无法直接预测2015-01-04这一周的埃博拉病例数，因为数据只提供了从第10周到第17周的病例情况。为了进行分析，我们需要知道第18周的数据或者至少知道第17周之后的情况。然而，根据提供的信息，我们可以看到病例数在第17周（2014-12-28）达到了847例，而近期均值为630例/周（前段均值为443例/周）。这意味着在第17周之前，病例数有波动，但整体趋势显示病例数量在减少。但是，没有足够的信息来确定2015-01-04这一周相对于近期均值的趋势。因此，我们不能准确地分析这一周的病例数变化。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 18,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone在第18周（2015-01-04）的病例数为430例，而近期均值为579例。这意味着在2015-01-11这周（即第19周开始）的病例数相比近期均值是下降的。这是因为第18周的病例数低于近期均值，而没有提供第19周的确切数据，我们只能基于已有的信息进行推断。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 19,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "低",
+      "analysis": "在给定的数据中，我们观察到Sierra Leone的埃博拉病例数从第18周的430例增加到了第19周的397例。这意味着病例数相对于近期均值（558例/周）有所下降。然而，由于数据仅提供了两周的趋势，且下降幅度不大，因此对这种短期波动的预测信心较低。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 20,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Sierra Leone的埃博拉病例数在近几周呈现下降趋势。在第20周（2015-01-18）时病例数为156例，而在第21周（2015-01-25）的数据并未给出。然而，根据已有的信息，我们可以推断在接下来的一周内，如果保持当前的下降趋势，病例数应该会继续减少。因此，无法直接比较第21周与第20周的病例数变化，也无法准确判断其与近期均值的关系。但是，基于当前的下降趋势，可以合理推测第21周的病例数可能低于第20周的156例。但由于数据缺失，我们只能进行这种间接的推理。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 21,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone的埃博拉病例数在近几周呈现下降趋势。在第14周至第21周的数据中，病例数从713例降至214例，平均每周病例数为256例。因此，可以推断在2015-02-01这周，即第22周，病例数相比近期均值（256例/周）应该是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 22,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "在给定的数据中，Sierra Leone的埃博拉病例数从第22周的161例下降到了第23周的未知数据。由于没有提供第23周的具体数据，我们无法直接比较。但是，根据题目信息，近期走势为下降，且近期均值为177例/周。因此，可以假设如果第23周的数据与近期均值相近或高于近期均值，则表示下降趋势可能暂时停止或逆转；若低于近期均值，则表示下降趋势持续。在没有具体数据的情况下，我们只能基于已知趋势进行推测。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 23,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone在第20周至第23周的埃博拉病例数呈现下降趋势，且近期均值为202例/周。因此，在2015-02-15这周，即第23周，病例数为231例，相较于近期均值，属于下降趋势。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 24,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "平稳",
+      "correct": true,
+      "confidence": "低",
+      "analysis": "从提供的数据来看，Sierra Leone在第25周（2015-02-22）的埃博拉病例数为231例。这一数字与前几周相比有所波动，但整体趋势显示病例数量在下降。然而，为了准确判断这一周的病例数相对于近期均值的变化方向，我们需要知道第25周的确切病例数。由于第25周的数据未直接提供，我们仅能基于已有的信息进行推断。根据已知数据，第25周的病例数在161例到231例之间，这意味着它高于第24周的195例，但低于近期均值196例。因此，需要更多信息来确定其确切方向。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 25,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone的埃博拉病例数在近几周呈现下降趋势。在第20周至第25周的数据中，病例数从156例增加到168例，整体趋势为平稳。因此，我们可以推断在2015-03-01这周（即第26周），病例数相比近期均值（198例/周）应该是下降的，因为近期均值是基于之前的下降趋势计算得出的。然而，由于没有直接提供第26周的具体数据，我们只能基于现有信息进行推测。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 26,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Sierra Leone在第26周（2015-03-01）有215例病例，而近期均值为193例/周。这意味着在2015-03-08这周（即第26周之后的一周），病例数相比近期均值有所上升。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 27,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Sierra Leone在第27周（2015-03-08）的病例数为147例，而近期均值为177例/周。这意味着在2015-03-15这周（即第28周开始），病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 28,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，我们可以看到Sierra Leone的埃博拉病例数在第27周（2015-03-08）为147例，而在第28周（2015-03-15）为179例。这意味着病例数从第27周到第28周有所增加。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 29,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone在第29周（2015-03-22）的埃博拉病例数为98例，而在第28周（2015-03-15）的病例数为179例。这意味着在两周的时间内，病例数从179例减少到了98例，减少了81例。这种变化表明了病例数的显著下降。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 30,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Sierra Leone的埃博拉病例数在近几周呈现出下降的趋势。在第23周至第30周的数据中，病例数从231例降至95例，平均每周病例数为124例。因此，可以推断在2015-04-05这周，即第31周，Sierra Leone的埃博拉病例数相比近期均值（124例/周）是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 31,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone的埃博拉病例数在第24周至第31周之间经历了波动。在这段时间内，病例数从195例降至133例，表明疫情有下降的趋势。与近期均值109例/周相比，第31周的病例数为133例，高于近期均值。因此，可以认为在2015-04-12这周，Sierra Leone的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 32,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，Sierra Leone的埃博拉病例数在第32周（2015-04-12）达到133例，与近期均值120例/周相当。这意味着在这一周内，病例数相对于近期均值没有显著变化。考虑到数据的时间跨度较短且波动较小，可以认为这种状态的持续性提供了较高的信心水平。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 33,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "在给定的数据范围内，Sierra Leone的埃博拉病例数呈现出下降的趋势。从第26周到第33周，病例数从215例降至89例，平均每周病例数约为118例。因此，可以推断在2015-04-26这周，即第34周，Sierra Leone的埃博拉病例数相比近期均值（118例/周）应该是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 34,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，Sierra Leone的埃博拉病例数从第34周开始呈现下降趋势，从95例降至69例。这意味着病例数相对于近期均值97例/周有所下降。因此，我们可以分析出在2015-05-03这周，Sierra Leone的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 35,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone的埃博拉病例数在近几周呈现下降趋势。在第35周（2015-05-03）时病例数为85例，而在第36周即2015-05-10这周的数据未给出，但可以假设为接近或等于第35周的数据。因此，我们可以推断2015-05-10这周的病例数相较于近期均值（81例/周）应该是平稳或略有下降。然而，由于没有确切的第36周数据，我们只能做出一个大致的推测。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 36,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone在第36周（2015-05-10）有94例病例，而近期均值为83例/周。因此，在2015-05-17这周，即第37周之前的一周，Sierra Leone的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 37,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据集中，Sierra Leone的埃博拉病例数从第30周到第37周呈现下降趋势，近期均值为76例/周。因此，我们可以推断在2015-05-24这周，即第37周，病例数相比近期均值是下降的。考虑到数据连续下降的趋势以及近期均值的计算，我们对这一结论的置信度较高。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 38,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Sierra Leone在第31周至第38周的埃博拉病例数经历了波动，但总体呈下降趋势。特别是从第33周到第37周，病例数从89例降至48例，显示了明显的下降。然而，在第38周，病例数突然上升至126例，这与之前的下降趋势形成对比。因此，我们需要分析第38周相对于近期均值的变化。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 39,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone的埃博拉病例数在第32周到第39周之间经历了波动。特别是第38周病例数显著增加至126例，而在接下来的一周（第39周），病例数下降至79例。这意味着在两周内病例数有显著变化。因此，需要进一步分析这段时间内的具体影响因素。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 40,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "在给定的数据集中，Sierra Leone的埃博拉病例数从第33周到第40周呈现波动趋势，其中第38周病例数为126例，为近期最高值。与前段的近期均值106例/周相比，第40周的病例数为114例，接近但略低于近期均值。因此，从整体趋势来看，病例数呈现出上升趋势。然而，由于数据集有限且仅包含8周数据，这种趋势的持续性还需更多数据支持。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 41,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，我们可以观察到Sierra Leone的埃博拉病例数在第34周至第41周之间经历了波动。特别是从第37周（48例）到第38周（126例），病例数显著增加。然而，在接下来的几周内，病例数又有所减少，第41周降至73例。考虑到这一波动趋势以及与近期均值（89例/周）的比较，我们需要确定在第42周（即2015-06-21这周）的病例数相对于近期均值的变化。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 42,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "平稳",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给定的数据中，我们可以观察到Sierra Leone的埃博拉病例数在第35周至第42周之间经历了波动。从第36周开始，病例数从94例增加到第38周的126例，随后在第39周降至79例，第40周再次增加到114例，第41周降至73例，第42周又增加到80例。这些数据表明，病例数在短期内有上升和下降的趋势。然而，整体趋势似乎在逐渐下降，因为从第38周到第42周，平均每周病例数从89例降至80例。因此，我们无法直接预测未来一周的情况，但基于当前趋势，可以推测病例数可能保持平稳或略有下降。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 43,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone在第36周至第43周的埃博拉病例数波动较大，但整体呈下降趋势。在第43周，病例数为81例，与近期均值78例相比，属于平稳状态。然而，考虑到数据波动性，这一比较可能受到短期随机因素的影响。因此，从长期趋势来看，可以认为是下降趋势的一部分，但在短期内难以断定是否完全上升或下降。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 44,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone在第37周至第44周的埃博拉病例数呈现波动趋势，但整体呈下降态势。在第44周，病例数降至42例，这是自第38周以来的最低点。与近期均值68例/周相比，第44周的病例数明显下降。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 45,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "在提供的数据中，Sierra Leone的埃博拉病例数在近几周呈现下降趋势，从第38周的126例降至第45周的42例。这意味着病例数减少，接近近期均值55例/周。因此，在2015-07-19这周，即第45周，Sierra Leone的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 46,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给定的数据中，Sierra Leone的埃博拉病例数从第46周的32例增加到了第47周的42例，这意味着病例数在这一周内出现了上升。考虑到这是基于连续几周的数据趋势进行的观察，我们可以推断这种上升可能是由于某种特定因素导致的，例如新的感染源或防护措施的放松等。然而，由于没有更多的后续数据来验证这一趋势是否持续，我们只能基于当前信息进行分析。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 47,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Sierra Leone在第44周至第47周的埃博拉病例数呈下降趋势，近期均值为43例/周。因此，在2015-08-02这周（即第47周），病例数为55例，相较于近期均值，属于上升趋势。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 48,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，我们观察到Sierra Leone的埃博拉病例数从第48周的123例增加到了第49周的123例，与近期均值70例/周相比，波动较大且数值相同。这意味着在2015-08-09这周，Sierra Leone的埃博拉病例数相比近期均值保持平稳。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 49,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Sierra Leone在第48周（2015-08-02）出现了123例病例，这是近期均值（73例/周）的两倍多。在第49周（2015-08-09），病例数降至41例，但仍高于近期均值。这表明在2015-08-16这周（即第49周），病例数相比近期均值呈现上升趋势。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 50,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "在提供的数据中，Sierra Leone的埃博拉病例数从第48周的123例下降到第49周的41例，再上升到第50周的57例。这意味着病例数经历了先降后升的趋势。然而，没有直接提供2015年8月23日的数据，因此无法精确比较当天的情况与近期均值。但是，根据描述的趋势，我们可以推断在8月23日所在的那周（第51周），病例数可能会继续上升。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 51,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone在第44周至第51周的埃博拉病例数呈现波动趋势，其中第47周病例数为55例，第48周为123例，第49周降至41例，第50周为57例，第51周为48例。近期均值为49例/周（前段为39例/周）。因此，我们可以通过这些数据点来分析趋势。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 52,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "平稳",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone在第52周（2015-08-30）的病例数为53例，这是近期均值（53例/周）的水平。这意味着在这一周内，病例数与近期均值保持一致，没有显著上升或下降。考虑到数据波动性和有限的样本量，我们对这种稳定状态的预测信心属于中等。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 53,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据范围内，Sierra Leone的埃博拉病例数呈现出波动的趋势。从第46周到第53周，病例数经历了从32例到53例的变化。近8周的近期均值为51例/周。因此，为了评估2015-09-13这周的情况，我们需要找到与该日期相对应的周数。根据提供的数据，最近的一周是第53周（2015-09-06），而2015-09-13位于第53周之后的一周。在第53周的数据是53例，这意味着在2015-09-13这周，Sierra Leone的埃博拉病例数与近期均值保持一致。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 54,
+      "context_len": 8,
+      "actual_direction": "上升",
+      "predicted_direction": "上升",
+      "correct": true,
+      "confidence": "中",
+      "analysis": "在给定的数据中，我们可以看到Sierra Leone的埃博拉病例数在第54周（2015-09-13）达到了62例，这是最近几周的最高点。与近期均值56例/周相比，这一数值表明在2015-09-20这周，即第55周开始时，病例数有所上升。因此，我们可以通过这些信息推断，在2015-09-20这周，Sierra Leone的埃博拉病例数相比近期均值是上升的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 55,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Sierra Leone在第55周（2015-09-20）的病例数为84例，而近期均值为66例/周。这意味着在接下来的一周内（即第56周，2015-09-27），病例数相比近期均值有所上升。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 56,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在给定的数据中，Sierra Leone的埃博拉病例数从第56周的70例上升到第57周的84例，这意味着病例数在短期内有显著增加。考虑到这一趋势以及历史数据中病例数的波动性，可以推测在2015-10-04这周（即第57周）的病例数相比近期均值（72例/周）有所上升。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 57,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从提供的数据来看，Sierra Leone在第57周（2015-10-04）有76例病例，而近期均值为77例/周。这意味着在第57周的病例数相比近期均值是下降的，因为实际病例数低于均值。然而，考虑到趋势是上升的背景，这一周的病例数相对于之前的峰值（第55周的84例）有所减少，但仍然保持在较高的水平。因此，综合考虑趋势和均值，可以认为这一周的病例数相对于近期均值是平稳的，尤其是在上升的趋势下出现这种变化。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 58,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Sierra Leone在第58周（2015-10-11）的病例数为26例，这低于近期均值57例/周。这意味着在接下来的一周（即第59周，2015-10-18）之前，病例数量已经有所减少。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 59,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "从给定的数据来看，Sierra Leone在第59周（2015-10-18）的病例数为35例，而在第58周（2015-10-11）的病例数为26例。这意味着在两周内，病例数从26例上升到35例，增加了9例。考虑到近期均值为46例/周，而实际病例数为35例，这表明在2015-10-25这周，Sierra Leone的埃博拉病例数相比近期均值是下降的。然而，由于数据仅提供了有限的时间范围，我们无法确定这种趋势是否持续，因此对这一判断的信心水平为中等。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 60,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "上升",
+      "correct": false,
+      "confidence": "低",
+      "analysis": "从给定的数据来看，Sierra Leone的埃博拉病例数在第58周至第60周之间经历了显著下降，从26例增加到46例。这意味着在这一时期内，病例数呈现波动上升的趋势。然而，为了确定在2015-11-01这周（即第61周）的病例数相对于近期均值（36例/周）的变化方向，我们需要比较第61周的预期病例数与近期均值。由于没有直接提供第61周的确切数据，我们只能基于已有的信息进行推断。考虑到之前的下降趋势，如果第61周的病例数保持在46例或以上，那么可以认为是相对于近期均值有所上升；如果低于46例，则为下降；如果接近46例，则为平稳。但是，没有具体数据支持这一结论，因此我们的分析只能停留在假设层面。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 61,
+      "context_len": 8,
+      "actual_direction": "平稳",
+      "predicted_direction": "下降",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "在分析Sierra Leone的埃博拉病例数据时，我们注意到从第54周到第61周，病例数量经历了波动，但整体趋势呈现下降。在给定的数据中，第60周的病例数为46例，第61周的病例数为29例。这意味着在2015-11-01（即第61周）的病例数相比2015-10-25（即第60周）有所下降。因此，我们可以推断，在2015-11-08这周，Sierra Leone的埃博拉病例数相比近期均值（37例/周）是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 62,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "中",
+      "analysis": "在提供的数据中，Sierra Leone的埃博拉病例数从第62周的42例下降到第63周的未知数据。由于没有提供第63周的确诊病例数，我们无法直接比较。然而，根据题目描述，Sierra Leone的近期走势为下降，且近期均值为39例/周。因此，在逻辑上，如果第63周的数据未给出或与第62周相当，则可以假设第63周的病例数与近期均值接近；若第63周的数据低于近期均值，则表示下降趋势持续；若高于近期均值，则表示趋势逆转。但由于数据缺失，我们只能基于现有信息进行推测。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 63,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone的埃博拉病例数在近几周呈现出下降趋势。在第58周至第63周的数据中，病例数分别为26例、35例、46例、29例和13例。这表明病例数在持续减少。因此，在2015-11-22这周，即第64周，我们预计病例数会继续遵循这一下降趋势。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 64,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone的埃博拉病例数在近几周呈现下降趋势。在第64周（2015-11-22）时病例数为0例，这是近期均值（18例/周）的显著下降。因此，在2015-11-29这周，即第65周的数据尚未给出，但基于之前的趋势，我们可以预测病例数相较于近期均值应该是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 65,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "在提供的数据中，Sierra Leone的埃博拉病例数从第64周的0例下降到第65周的0例，这意味着病例数保持在极低水平且连续两周为0。与近期均值4例/周相比，这表明病例数处于下降趋势。因此，可以推断在2015-12-06这周（即第65周），Sierra Leone的埃博拉病例数相比近期均值是下降的。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 66,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从给定的数据来看，Sierra Leone在第64周至第66周连续三周报告的埃博拉病例数为0。这意味着在这段时间内，该国的疫情得到了有效控制，没有新增病例。因此，如果我们要分析2015-12-13这周的情况，即第67周的数据，我们可以假设这一趋势会持续下去，因为没有新的数据表明病例数有变化。所以，这周的病例数与近期均值（0例/周）保持一致。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 67,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "平稳",
+      "correct": false,
+      "confidence": "高",
+      "analysis": "从提供的数据来看，Sierra Leone在第60周至第67周的埃博拉病例数呈现下降趋势，其中第64周至第67周均为0例。这意味着在这一时期内，病例数已经降至极低水平。因此，我们可以通过这些数据推断，在2015-12-20这周，即第68周，病例数相比近期均值（0例/周）保持平稳或继续下降，因为没有新的病例报告。"
+    },
+    {
+      "country": "Sierra Leone",
+      "window_end": 68,
+      "context_len": 8,
+      "actual_direction": "下降",
+      "predicted_direction": "下降",
+      "correct": true,
+      "confidence": "高",
+      "analysis": "在提供的数据中，Sierra Leone从第64周开始连续8周报告为0例病例。这意味着在这一时期内，该国的埃博拉疫情得到了有效控制。因此，如果我们要预测2015-12-27这周的情况，可以基于这一趋势进行分析。"
+    }
+  ],
+  "metrics": {
+    "accuracy": 0.3875,
+    "total_samples": 160,
+    "confusion": {
+      "上升": {
+        "上升": 20,
+        "下降": 13,
+        "平稳": 10
+      },
+      "下降": {
+        "上升": 30,
+        "下降": 35,
+        "平稳": 21
+      },
+      "平稳": {
+        "上升": 9,
+        "下降": 15,
+        "平稳": 7
+      }
+    },
+    "class_metrics": {
+      "上升": {
+        "precision": 0.3389830508474576,
+        "recall": 0.46511627906976744,
+        "f1": 0.3921568627450981,
+        "actual_count": 43,
+        "pred_count": 59
+      },
+      "下降": {
+        "precision": 0.5555555555555556,
+        "recall": 0.4069767441860465,
+        "f1": 0.4697986577181208,
+        "actual_count": 86,
+        "pred_count": 63
+      },
+      "平稳": {
+        "precision": 0.18421052631578946,
+        "recall": 0.22580645161290322,
+        "f1": 0.20289855072463767,
+        "actual_count": 31,
+        "pred_count": 38
+      }
+    },
+    "high_conf_accuracy": 0.40963855421686746,
+    "high_conf_total": 83,
+    "random_baseline": 0.333
+  }
+}

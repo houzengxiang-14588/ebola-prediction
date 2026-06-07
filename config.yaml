@@ -1,0 +1,67 @@
+# 埃博拉病毒趋势预测 — 配置文件
+
+# 数据采集
+collector:
+  sources:
+    - name: owid
+      base_url: https://raw.githubusercontent.com/owid/covid-19-data/master/public/data
+      enabled: false
+  cache_dir: data/raw
+
+# 数据处理
+processor:
+  min_sequence_length: 30
+  smooth_window: 7
+  fill_method: linear
+
+# 基座大模型
+llm:
+  provider: transformers
+  model_path: D:/llm_models/qwen/Qwen2-7B-Instruct
+  device: auto
+  load_in_4bit: true
+  temperature: 0.7
+  max_tokens: 512
+
+# LoRA 微调
+lora:
+  enabled: true
+  adapter_path: lora_weights/final
+  r: 16
+  alpha: 32
+  dropout: 0.05
+
+# 向量知识库 (RAG)
+rag:
+  enabled: true
+  persist_dir: chroma_db
+  embed_model: all-MiniLM-L6-v2
+  top_k: 5
+  knowledge_sources:
+    - pdf_reports      # WHO PDF疫情报告
+    - country_profiles # 20国结构化概况
+    - expert_rules     # 流行病学专家知识
+
+# 训练数据
+training:
+  data_dir: data/training
+  train_samples: samples.jsonl
+  val_split: 0.2
+
+# 预测
+predictor:
+  context_days: 60
+  mask_days: 1
+  roll_steps: 14
+  samples: 3
+
+# 回溯测试
+backtest:
+  method: leave_one_year_out
+  train_years: [2019, 2020, 2021, 2022]
+  test_year: 2023
+  metrics:
+    - mae
+    - rmse
+    - direction_accuracy
+    - magnitude_accuracy

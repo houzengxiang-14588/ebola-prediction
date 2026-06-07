@@ -1,0 +1,22 @@
+# Large model files
+lora_weights/
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw data archive
+ebola_raw_data.zip
+
+# Project docs (personal)
+lunwen/
+项目总结报告.*
+新旧实验对比分析.docx
+病例时间统计.xlsx
+
+# Temp scripts
+_gen.py
+_gen2.py
+_write_backtest.py
