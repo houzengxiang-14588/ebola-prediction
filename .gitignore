@@ -7,7 +7,8 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Raw data archive
+# Raw data
+ebola_raw_data/
 ebola_raw_data.zip
 
 # Project docs (personal)
